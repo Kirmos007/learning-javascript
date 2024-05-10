@@ -1,7 +1,9 @@
 var a = 5
 function diff() { 
     let x = 5
-    let y = 3
+    let y = 2
+    x = 10 // let keyword allows change of value later on in a program.
+    a = 12 // var also lets change the value stored in a variable later on in a program.
     return a-y; // instead of x we can use a since its declared with var keyword which identifies it as global variable
 }
 
